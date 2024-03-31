@@ -6,7 +6,7 @@ import Layout from '../layouts/layout.astro'
 import Navbar from '../components/Navbar.astro'
 ---
 <Layout>
-  <section class="bg-[url('./circuit-board.svg')]">
+  <section class="background">
     <Navbar/>
     <HeroSection/>
   </section>
@@ -14,5 +14,7 @@ import Navbar from '../components/Navbar.astro'
   <Webs/>
 </Layout>
 <style>
-
+  .background{
+    background-image: url('./circuit-board.svg') ;
+  }
 </style>
